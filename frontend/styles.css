@@ -1,0 +1,159 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f0f8;
+    color: #2d2438;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.Padre {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(55, 35, 80, 0.12);
+}
+
+
+h2 {
+    color: #5c3b82;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.hijo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #51445f;
+    margin-top: 5px;
+}
+
+
+input,
+select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d8cde5;
+    border-radius: 8px;
+    background: #faf9fc;
+    color: #2d2438;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #8054b8;
+    box-shadow: 0 0 0 3px rgba(128, 84, 184, 0.15);
+}
+
+
+#elBoton {
+    margin-top: 12px;
+    padding: 13px;
+    background: #7045a0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#elBoton:hover {
+    background: #56317e;
+    transform: translateY(-2px);
+}
+
+#elBoton:active {
+    transform: scale(0.98);
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #e8e0ef;
+    margin: 30px 0;
+}
+
+
+.registro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px;
+    background: #faf8fd;
+    border: 1px solid #e5d9f0;
+    border-left: 5px solid #8054b8;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.registro span:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5c3b82;
+}
+
+
+.registro span:nth-child(2) {
+    font-size: 14px;
+    color: #766781;
+    text-transform: capitalize;
+}
+
+
+.registro div {
+    display: flex;
+    gap: 8px;
+}
+
+.registro button {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.registro button:hover {
+    transform: translateY(-1px);
+}
+
+.registro button:first-child {
+    background: #fee2e2;
+    color: #b42323;
+}
+
+.registro button:first-child:hover {
+    background: #fecaca;
+}
+
+
+.registro button:last-child {
+    background: #e9ddf7;
+    color: #5c3b82;
+}
+
+.registro button:last-child:hover {
+    background: #d9c5f0;
+}
+
