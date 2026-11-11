@@ -6,11 +6,11 @@ const pool = mysql.createPool({
 host: 'localhost',
 user: 'root',
 password:'1234',
-port: 3308,
-database: 'gastos'
+port: 3306,
+database: 'finanzas'
 })
 
-module.exports = pool
+module.exports = pool.promise()
 
 
 
