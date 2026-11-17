@@ -1,5 +1,5 @@
-create database interfaz;
-Use interfaz;
+create database finanzas;
+Use finanzas;
 
 
 CREATE TABLE categorias (
