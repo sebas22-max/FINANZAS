@@ -5,5 +5,3 @@ const controller = require("../controller/gastos.controller")
 router.get("/gastos",controller.obtenerGastos)
 
 module.exports = router
-
-
