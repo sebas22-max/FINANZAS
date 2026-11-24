@@ -11,4 +11,4 @@ class   CategoriasController{
 }
 
 
-module.exports = CategoriasControllerController
+module.exports = CategoriasController
